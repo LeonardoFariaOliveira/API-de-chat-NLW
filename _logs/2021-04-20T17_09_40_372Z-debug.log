@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yarn'
+1 verbose cli ]
+2 info using npm@6.14.9
+3 info using node@v14.15.3
+4 verbose npm-session 7a1a67b241a8afc8
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 304 https://registry.npmjs.org/yarn 1825ms (from cache)
+8 http fetch GET 200 https://registry.npmjs.org/yarn/-/yarn-1.22.10.tgz 607ms (from cache)
+9 silly pacote tag manifest for yarn@latest fetched in 2828ms
+10 timing stage:loadCurrentTree Completed in 3511ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 4ms
+16 silly install loadAllDepsIntoIdealTree
+17 silly resolveWithNewModule yarn@1.22.10 checking installable status
+18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 18ms
+19 timing stage:loadIdealTree Completed in 27ms
+20 silly currentTree npm
+21 silly idealTree npm
+21 silly idealTree `-- yarn@1.22.10
+22 silly install generateActionsToTake
+23 timing stage:generateActionsToTake Completed in 18ms
+24 silly diffTrees action count 1
+25 silly diffTrees add yarn@1.22.10
+26 silly decomposeActions action count 8
+27 silly decomposeActions fetch yarn@1.22.10
+28 silly decomposeActions extract yarn@1.22.10
+29 silly decomposeActions preinstall yarn@1.22.10
+30 silly decomposeActions build yarn@1.22.10
+31 silly decomposeActions install yarn@1.22.10
+32 silly decomposeActions postinstall yarn@1.22.10
+33 silly decomposeActions finalize yarn@1.22.10
+34 silly decomposeActions refresh-package-json yarn@1.22.10
+35 silly install executeActions
+36 silly doSerial global-install 8
+37 verbose correctMkdir C:\Users\Win10\AppData\Roaming\npm\NLW\projeto_NLW\_locks correctMkdir not in flight; initializing
+38 verbose makeCacheDir UID & GID are irrelevant on win32
+39 verbose lock using C:\Users\Win10\AppData\Roaming\npm\NLW\projeto_NLW\_locks\staging-a0b3f582c8610f65.lock for C:\Users\Win10\AppData\Roaming\npm\node_modules\.staging
+40 silly doParallel extract 1
+41 silly extract yarn@1.22.10
+42 silly tarball trying yarn@latest by hash: sha512-IanQGI9RRPAN87VGTF7zs2uxkSyQSrSPsju0COgbsKQOOXr5LtcVPeyXWgwVa0ywG3d8dg6kSYKGBuYK021qeA==
+43 silly extract yarn@latest extracted to C:\Users\Win10\AppData\Roaming\npm\node_modules\.staging\yarn-a4714932 (402ms)
+44 timing action:extract Completed in 415ms
+45 silly doReverseSerial unbuild 8
+46 silly doSerial remove 8
+47 silly doSerial move 8
+48 silly doSerial finalize 8
+49 silly finalize C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn
+50 timing action:finalize Completed in 24ms
+51 silly doParallel refresh-package-json 1
+52 silly refresh-package-json C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn
+53 timing action:refresh-package-json Completed in 393ms
+54 silly doParallel preinstall 1
+55 silly preinstall yarn@1.22.10
+56 info lifecycle yarn@1.22.10~preinstall: yarn@1.22.10
+57 verbose lifecycle yarn@1.22.10~preinstall: unsafe-perm in lifecycle true
+58 verbose lifecycle yarn@1.22.10~preinstall: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn\node_modules\.bin;C:\Users\Win10\AppData\Roaming\npm\node_modules\.bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramFiles/Java/jdk-14.0.2\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Win10\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Multipass\bin;"; C:\ProgramFiles/Java/jdk-14.0.2\bin";C:\Users\Win10\AppData\Roaming\npm;;D:\Program Files\Microsoft VS Code\bin
+59 verbose lifecycle yarn@1.22.10~preinstall: CWD: C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn
+60 silly lifecycle yarn@1.22.10~preinstall: Args: [ '/d /s /c', ':; (node ./preinstall.js > /dev/null 2>&1 || true)' ]
+61 silly lifecycle yarn@1.22.10~preinstall: Returned: code: 0  signal: null
+62 timing action:preinstall Completed in 501ms
+63 silly doSerial build 8
+64 silly build yarn@1.22.10
+65 info linkStuff yarn@1.22.10
+66 silly linkStuff yarn@1.22.10 has C:\Users\Win10\AppData\Roaming\npm\node_modules as its parent node_modules
+67 silly linkStuff yarn@1.22.10 is part of a global install
+68 silly linkStuff yarn@1.22.10 is installed into a global node_modules
+69 silly linkStuff yarn@1.22.10 is installed into the top-level global node_modules
+70 verbose linkBins [
+70 verbose linkBins   { yarn: 'bin/yarn.js', yarnpkg: 'bin/yarn.js' },
+70 verbose linkBins   'C:\\Users\\Win10\\AppData\\Roaming\\npm',
+70 verbose linkBins   true
+70 verbose linkBins ]
+71 timing action:build Completed in 23ms
+72 verbose unlock done using C:\Users\Win10\AppData\Roaming\npm\NLW\projeto_NLW\_locks\staging-a0b3f582c8610f65.lock for C:\Users\Win10\AppData\Roaming\npm\node_modules\.staging
+73 timing stage:rollbackFailedOptional Completed in 40ms
+74 timing stage:runTopLevelLifecycles Completed in 4988ms
+75 verbose stack Error: EEXIST: file already exists, cmd shim 'C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js' -> 'C:\Users\Win10\AppData\Roaming\npm\yarn'
+75 verbose stack     at simulateEEXIST (C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:87:15)
+75 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\gentle-fs\lib\bin-link.js:78:17
+75 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-cmd-shim\index.js:51:29
+75 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:123:16
+75 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3)
+76 verbose cwd C:\Users\Win10\AppData\Roaming\npm\NLW\projeto_NLW
+77 verbose Windows_NT 10.0.19041
+78 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "yarn"
+79 verbose node v14.15.3
+80 verbose npm  v6.14.9
+81 error code EEXIST
+82 error path C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+83 error dest C:\Users\Win10\AppData\Roaming\npm\yarn
+84 error EEXIST: file already exists, cmd shim 'C:\Users\Win10\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js' -> 'C:\Users\Win10\AppData\Roaming\npm\yarn'
+85 error File exists: C:\Users\Win10\AppData\Roaming\npm\yarn
+86 error Remove the existing file and try again, or run npm
+87 error with --force to overwrite files recklessly.
+88 verbose exit [ 1, true ]
